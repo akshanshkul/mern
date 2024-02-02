@@ -1,0 +1,51 @@
+.popup-content {
+  width: 550px;
+  height: 450px;
+}
+
+.popup-container {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+}
+
+.inner-body .text {
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
+
+.inner-body small {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nav-item{
+  font-size: 16px;
+  font-weight: 400;
+}
+.col {
+  margin-bottom: 40px;
+}
+
+.close-btn {
+  position: absolute;
+  background: rgba(232, 226, 216, 0.355);
+  width: 34px;
+  height: 34px;
+  top: 0;
+  right: -34px;
+  padding: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-closebtn {
+  position: relative;
+  float: right;
+  top: 0;
+}

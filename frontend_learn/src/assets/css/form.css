@@ -1,0 +1,20 @@
+
+.createNewNotes button {
+    margin: 10px;
+    background-color: #fded16;
+    border: none;
+
+}
+.createNewNotes button:active {
+    margin: 10px;
+    background-color: #fded16;
+    border: none;
+
+}
+.createNewNotes button:focus {
+    margin: 10px;
+    background-color: #f5bc00;
+    box-shadow: 0 0 0 0.25rem #fdee1686;
+    border: none;
+    outline: none;
+}
