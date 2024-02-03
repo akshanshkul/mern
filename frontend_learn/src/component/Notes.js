@@ -15,7 +15,7 @@ const Notes = () => {
     const updateComplete = (id, currentCompleteStatus) => {
         const updatedCompleteStatus = !currentCompleteStatus; // Toggle between true and false
 
-        fetch(`http://127.0.0.1:8000/todos/${id}`, {
+        fetch(`http://13.127.161.113:8000/todos/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ const Notes = () => {
 
 
     const handleDelete = (id) => {
-        fetch(`http://127.0.0.1:8000/todos/${id}`, {
+        fetch(`http://13.127.161.113:8000/todos/${id}`, {
             method: 'DELETE',
         })
             .then((res) => res.json())
@@ -69,7 +69,7 @@ const Notes = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('http://127.0.0.1:8000/todos/list')
+        fetch('http://13.127.161.113:8000/todos/list')
             .then((res) => res.json())
             .then((data) => {
                 setNotes(data);
